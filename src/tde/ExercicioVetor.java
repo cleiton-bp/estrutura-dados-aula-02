@@ -11,7 +11,7 @@ public class ExercicioVetor {
         this.valorAtual = 0;
     }
 
-//    indice 1
+    //    indice 1
     public void aumentarCapacidade() {
         String[] novoElementos;
 
@@ -24,7 +24,7 @@ public class ExercicioVetor {
         this.elementos = novoElementos;
     }
 
-//    indice 2
+    //    indice 2
     public void inserirPrimeiraPosicaoDeslocandoDireita(String elemento) {
         if (this.valorAtual < this.elementos.length) {
             String[] copy = new String[this.elementos.length + 1];
@@ -38,11 +38,11 @@ public class ExercicioVetor {
             this.elementos = copy;
             this.valorAtual++;
         } else {
-            System.out.println("deu ruim O_O");
+            System.out.println("Vetor cheio");
         }
     }
 
-//    indice 3
+    //    indice 3
     public void inserirElemento(String elemento) {
         if (this.valorAtual < this.elementos.length) {
             elementos[valorAtual] = elemento;
@@ -52,26 +52,26 @@ public class ExercicioVetor {
         }
     }
 
-//    indice 4
+    //    indice 4
     public void buscarElementoPorPosicao(int posicao) {
-    if (posicao >= 0 && posicao < this.elementos.length) {
-        this.elementos[posicao] = this.elementos[posicao];
-        System.out.println("fruta: " + this.elementos[posicao]);
-    } else {
-        System.out.println("esta posicao nao foi encontrada");
+        if (posicao >= 0 && posicao < this.elementos.length) {
+            this.elementos[posicao] = this.elementos[posicao];
+            System.out.println("Fruta: " + this.elementos[posicao]);
+        } else {
+            System.out.println("Esta posição não foi encontrada");
+        }
     }
-}
 
-//    indice 5
+    //    indice 5
     public void alterar(int indice, String elemento) {
-    if (indice > -1 && indice < this.valorAtual) {
-        elementos[indice] = elemento;
-    } else {
-        System.out.println("indice invalido");
+        if (indice > -1 && indice < this.valorAtual) {
+            elementos[indice] = elemento;
+        } else {
+            System.out.println("Índice inválido");
+        }
     }
-}
 
-//    indice 6
+    //    indice 6
     public void excluir(int indice) {
         if (indice < 0 || indice >= this.valorAtual) {
             System.out.println("Índice inválido");
@@ -84,7 +84,7 @@ public class ExercicioVetor {
         this.valorAtual--;
     }
 
-//    indice 7
+    //    indice 7
     public void excluirPorNome(String elemento) {
         int posicao = -1;
 
@@ -108,7 +108,7 @@ public class ExercicioVetor {
         }
     }
 
-//    indice 8
+    //    indice 8
     public boolean verificarElementos(String elemento) {
         for (int i = 0; i < this.elementos.length; i++) {
             if (this.elementos[i] != null && this.elementos[i].equalsIgnoreCase(elemento)) {
@@ -120,12 +120,12 @@ public class ExercicioVetor {
         return false;
     }
 
-//    indice 9
-    public void obterTamanhoTotal(){
+    //    indice 9
+    public void obterTamanhoTotal() {
         System.out.println("Tamanho total: " + this.elementos.length);
     }
 
-//    indice 10
+    //    indice 10
     public void verificarItensVazio() {
         int total = 0;
         for (int i = 0; i < this.elementos.length; i++) {
@@ -134,13 +134,13 @@ public class ExercicioVetor {
             }
         }
         if (total > 0) {
-            System.out.println("tem " + total + " elementos ");
+            System.out.println("Tem " + total + " elementos.");
         } else {
-            System.out.println("esta vazio");
+            System.out.println("Está vazio.");
         }
     }
 
-//    indice 11
+    //    indice 11
     public void limparVetor() {
         for (int i = 0; i < this.elementos.length; i++) {
             this.elementos[i] = null;
@@ -149,7 +149,7 @@ public class ExercicioVetor {
         System.out.println("Todos os elementos foram removidos. O vetor está vazio.");
     }
 
-//    indice 12
+    //    indice 12
     @Override
     public String toString() {
         String str;
