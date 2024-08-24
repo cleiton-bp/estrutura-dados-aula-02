@@ -1,12 +1,10 @@
 package tde;
 
-import java.util.List;
-
-public class ExercicioVetor {
+public class ExercicioUm {
     private String[] elementos;
     private int valorAtual;
 
-    public ExercicioVetor(int capacidade) {
+    public ExercicioUm(int capacidade) {
         this.elementos = new String[capacidade];
         this.valorAtual = 0;
     }

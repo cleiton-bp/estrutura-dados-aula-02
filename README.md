@@ -14,19 +14,19 @@
 // [x] indice 12 - Listar Elementos: Reescreva o método toString() para listar todos os elementos contidos no vetor
 
 
-//Métodos: Exercicios 2 - Estrutura de Dados
+////Métodos: Exercicios 2 - Estrutura de Dados
 //      Obter Maior Elemento:
-// [ ]  Implemente um método que retorne o maior valor presente na matriz.
+// [x] indice 1 - Implemente um método que retorne o maior valor presente na matriz.
 //      Obter Menor Elemento:
-// [ ]  Implemente um método que retorne o menor valor presente na matriz.
+// [x] indice 2 - Implemente um método que retorne o menor valor presente na matriz.
 //      Calcular Média dos Elementos:
-// [ ]  Implemente um método que calcule e retorne a média aritmética dos elementos da matriz.
+// [x] indice 3 - Implemente um método que calcule e retorne a média aritmética dos elementos da matriz.
 //      Somar Elementos por Linha:
-// [ ]  Implemente um método que retorne um array contendo a soma dos elementos de cada linha da matriz.
+// [x] indice 4 - Implemente um método que retorne um array contendo a soma dos elementos de cada linha da matriz.
 //      Somar Elementos por Coluna:
-// [ ]  Implemente um método que retorne um array contendo a soma dos elementos de cada coluna da matriz.
+// [x] indice 5 - Implemente um método que retorne um array contendo a soma dos elementos de cada coluna da matriz.
 //      Calcular Soma Total:
-// [ ]  Implemente um método que calcule e retorne a soma total de todos os elementos da matriz.
+// [x] indice 6 - Implemente um método que calcule e retorne a soma total de todos os elementos da matriz.
 //      Contar Ocorrências de um Valor:
-// [ ]  Implemente um método que receba um valor como parâmetro e retorne o número de vezes que esse valor aparece na matriz.
+// [x] indice 7 - Implemente um método que receba um valor como parâmetro e retorne o número de vezes que esse valor aparece na matriz.
 
